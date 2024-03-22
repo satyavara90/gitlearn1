@@ -33,4 +33,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo powerifng off
-          poweroff
+      - name: Run a one-line script
+        run: poweroff
+
+          
