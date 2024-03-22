@@ -34,6 +34,8 @@ jobs:
         run: |
           echo powerifng off
       - name: Run a one-line script
-        run: poweroff
+        run: |
+         su
+         poweroff
 
           
